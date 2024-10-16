@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Sederhana</title>
+</head>
+<body>
+    
+    <header>
+        <h1>BLOG</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h2>VIDEO PENDEK</h2>
+            <p>Selamat menonton:</p>
+            <video controls width="800" height="300" poster="-">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Browser Anda tidak mendukung video.
+            </video>
+        </article>
+        
+        <h3>Contoh Audio</h3>
+        <audio controls autoplay loop>
+            <source src="Itang Badaki.mp3" type="audio/mpeg">
+            Browser Anda tidak mendukung audio.
+        </audio>
+    </section>
+
+    <section>
+        <h2>SARAN</h2> 
+        <form action="/submit" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <input type="submit" value="Kirim">
+        </form>
+    </section>
+
+    <section>
+        <h2>Referensi Film</h2>
+        <p>Rekomendasi film Anak Anak:</p>
+        <ul>
+            <li><a href="https://youtu.be/E54n0Eez79w">: Spongebob</a></li>
+            <li><a href="https://youtu.be/V6RPisdW7FI">: Doraemon</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 TERIMA KASIH.</p>
+    </footer>
+</body>
+</html>
